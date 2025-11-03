@@ -1,0 +1,31 @@
+{
+  "name": "la-dulce-miga-backend",
+  "version": "1.0.0",
+  "description": "Backend para la pastelería artesanal La Dulce Miga",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "express",
+    "postgres",
+    "api",
+    "pasteleria"
+  ],
+  "author": "La Dulce Miga",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
